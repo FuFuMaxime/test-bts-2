@@ -1,0 +1,9 @@
+git add .
+git commit -m
+git pull (synchroniser les fichiers)
+git push (ajouter les fichiers)
+git log
+git branch (-b)
+git checkout
+git clone
+git reset
