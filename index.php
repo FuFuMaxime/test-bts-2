@@ -31,7 +31,7 @@ $client1
     ->setIdentifiant('18212121')
     ->setNom('Martins-Jacquelot')
     ->setPrenom('Jeff')
-    ->setAdresse('6 rue Louis Armand');
+    ->setAdresse('10 rue de la mere a aymeric');
 
 $client2 = new Entreprise();
 $client2
@@ -48,5 +48,5 @@ $location2
     ->setClient($client2)
     ->setVehicule($vehicule2);
 
-var_dump ($client1);
-var_dump ($client2);
+var_dump ($location1);
+var_dump ($location2);
