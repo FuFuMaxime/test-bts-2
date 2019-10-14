@@ -31,7 +31,7 @@ $client1
     ->setIdentifiant('18212121')
     ->setNom('Martins-Jacquelot')
     ->setPrenom('Jeff')
-    ->setAdresse('10 rue de la mere a aymeric');
+    ->setAdresse('10 rue de la mere de maxime mais lequel');
 
 $client2 = new Entreprise();
 $client2
