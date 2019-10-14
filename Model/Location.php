@@ -1,6 +1,6 @@
 <?php
 
-class Location
+final class Location
 {
     private $client;
 

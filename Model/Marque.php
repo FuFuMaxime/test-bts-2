@@ -1,6 +1,6 @@
 <?php
 
-class Marque
+final class Marque
 {
     private $nom;
 

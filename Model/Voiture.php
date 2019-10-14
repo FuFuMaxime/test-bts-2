@@ -2,7 +2,7 @@
 
 include 'Vehicule.php';
 
-class Voiture extends Vehicule
+final class Voiture extends Vehicule
 {
     private $nombreDePortes;
 

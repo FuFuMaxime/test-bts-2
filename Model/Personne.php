@@ -1,28 +1,19 @@
 <?php
 
 require_once 'ClientInterface.php';
+require_once 'IdentifiantTrait.php';
 
-class Personne implements ClientInterface
+final class Personne implements ClientInterface
 {
-    private $identifiant;
 
     private $nom;
 
     private $prenom;
     
     private $adresse;
+    
+    use IdentifiantTrait;
 
-    public function getIdentifiant(): string
-    {
-        return $this->identifiant;
-    }
-
-    public function setIdentifiant(string $identifiant): self
-    {
-        $this->identifiant = $identifiant;
-
-        return $this;
-    }
 
     public function getNom(): string
     {
